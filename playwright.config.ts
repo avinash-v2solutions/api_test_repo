@@ -3,7 +3,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 
 const config : PlaywrightTestConfig = {
-  testMatch : ["API_Mocking.test.ts"],
+  testMatch : ['tests/**/*.ts'] ,
 
   retries:2,
 

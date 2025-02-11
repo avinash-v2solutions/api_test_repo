@@ -19,12 +19,13 @@ test('find broken links on the page', async ({ page }) => {
 
   // Check the status of each link
   for (const url of links) {
+    
     // Catch network errors (like invalid URLs that fail to load)
     const response = await page.goto(url, { waitUntil: 'load' }).catch(() => null);
 
     // Check if the response is valid (status 200-299)
     if (response && response.status() >= 400) {
-        console.log('Broken Image :'+ response.url() +'returned status code :'+ response.status())
+        console.log('Broken URL :'+ response.url() +'returned status code :'+ response.status())
       brokenLinks.push(url); // Store broken URL
     
   }
@@ -37,6 +38,5 @@ test('find broken links on the page', async ({ page }) => {
   }
 }
 
-  // Optionally, assert that no broken links were found
-  //expect(brokenLinks.length).toBe(0);  // Ensure there are no broken links
+  
 });

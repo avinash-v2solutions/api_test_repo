@@ -8,6 +8,8 @@ test("Drag And Drop", async({page})=>{
      const source = await page.locator("//p[text()='Javascript']")
      const target = await page.locator("//p[text()='Drop Answer']")
 
+     await source.dragTo(target)
+
      await page.waitForLoadState('networkidle')
 
 })
