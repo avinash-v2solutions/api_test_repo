@@ -1,0 +1,75 @@
+
+[
+
+{
+
+    "username" : "standard_user",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Successfull Login"
+},
+
+{
+
+    "username" : "locked_out_user",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Epic sadface: Sorry, this user has been locked out."
+},
+
+{
+
+    "username" : "problem_user",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Successfull Login"
+},
+
+{
+
+    "username" : "performance_glitch_user",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Successfull Login"
+},
+
+{
+
+    "username" : "error_user",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Successfull Login"
+},
+
+{
+
+    "username" : "visual_user",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Successfull Login"
+},
+
+{
+
+    "username" : " ",
+    "password" : " ",
+    "expectedOutcome" : "Epic sadface: Username is required"
+},
+
+
+{
+
+    "username" : "standard_user",
+    "password" : " ",
+    "expectedOutcome" : "EEpic sadface: Password is required"
+},
+
+{
+
+    "username" : " ",
+    "password" : "secret_sauce",
+    "expectedOutcome" : "Epic sadface: Username is required"
+},
+
+{
+
+    "username" : "123!@# ",
+    "password" : " 987?>",
+    "expectedOutcome" : "Epic sadface: Username and password do not match any user in this service"
+}
+
+]

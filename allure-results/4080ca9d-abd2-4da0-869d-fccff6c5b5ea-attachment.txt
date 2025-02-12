@@ -1,0 +1,116 @@
+true
+{
+  date: 'Wed, 12 Feb 2025 05:18:23 GMT',
+  'content-type': 'application/json; charset=utf-8',
+  'cache-control': 'public, max-age=60, s-maxage=60',
+  vary: 'Accept,Accept-Encoding, Accept, X-Requested-With',
+  etag: 'W/"4f825cc84e1c733059d46e76e6df9db557ae5254f9625dfe8e1b09499c449438"',
+  'x-github-media-type': 'github.v3; format=json',
+  'x-github-api-version-selected': '2022-11-28',
+  'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+  'access-control-allow-origin': '*',
+  'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+  'x-frame-options': 'deny',
+  'x-content-type-options': 'nosniff',
+  'x-xss-protection': '0',
+  'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+  'content-security-policy': "default-src 'none'",
+  'content-encoding': 'gzip',
+  server: 'github.com',
+  'accept-ranges': 'bytes',
+  'x-ratelimit-limit': '60',
+  'x-ratelimit-remaining': '57',
+  'x-ratelimit-reset': '1739340459',
+  'x-ratelimit-resource': 'core',
+  'x-ratelimit-used': '3',
+  'content-length': '510',
+  'x-github-request-id': '2AC7:354A3D:1D53F5:2AFD51:67AC2F2F'
+}
+[
+  { name: 'Date', value: 'Wed, 12 Feb 2025 05:18:23 GMT' },
+  { name: 'Content-Type', value: 'application/json; charset=utf-8' },
+  { name: 'Cache-Control', value: 'public, max-age=60, s-maxage=60' },
+  {
+    name: 'Vary',
+    value: 'Accept,Accept-Encoding, Accept, X-Requested-With'
+  },
+  {
+    name: 'ETag',
+    value: 'W/"4f825cc84e1c733059d46e76e6df9db557ae5254f9625dfe8e1b09499c449438"'
+  },
+  { name: 'X-GitHub-Media-Type', value: 'github.v3; format=json' },
+  { name: 'x-github-api-version-selected', value: '2022-11-28' },
+  {
+    name: 'Access-Control-Expose-Headers',
+    value: 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset'
+  },
+  { name: 'Access-Control-Allow-Origin', value: '*' },
+  {
+    name: 'Strict-Transport-Security',
+    value: 'max-age=31536000; includeSubdomains; preload'
+  },
+  { name: 'X-Frame-Options', value: 'deny' },
+  { name: 'X-Content-Type-Options', value: 'nosniff' },
+  { name: 'X-XSS-Protection', value: '0' },
+  {
+    name: 'Referrer-Policy',
+    value: 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  },
+  { name: 'Content-Security-Policy', value: "default-src 'none'" },
+  { name: 'Content-Encoding', value: 'gzip' },
+  { name: 'Server', value: 'github.com' },
+  { name: 'Accept-Ranges', value: 'bytes' },
+  { name: 'X-RateLimit-Limit', value: '60' },
+  { name: 'X-RateLimit-Remaining', value: '57' },
+  { name: 'X-RateLimit-Reset', value: '1739340459' },
+  { name: 'X-RateLimit-Resource', value: 'core' },
+  { name: 'X-RateLimit-Used', value: '3' },
+  { name: 'Content-Length', value: '510' },
+  {
+    name: 'X-GitHub-Request-Id',
+    value: '2AC7:354A3D:1D53F5:2AFD51:67AC2F2F'
+  }
+]
+OK
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 510,
+  [Symbol(trigger_async_id_symbol)]: 306,
+  [Symbol(kResourceStore)]: undefined
+}
+200
+{
+  current_user_url: 'https://api.github.com/user',
+  current_user_authorizations_html_url: 'https://github.com/settings/connections/applications{/client_id}',
+  authorizations_url: 'https://api.github.com/authorizations',
+  code_search_url: 'https://api.github.com/search/code?q={query}{&page,per_page,sort,order}',
+  commit_search_url: 'https://api.github.com/search/commits?q={query}{&page,per_page,sort,order}',
+  emails_url: 'https://api.github.com/user/emails',
+  emojis_url: 'https://api.github.com/emojis',
+  events_url: 'https://api.github.com/events',
+  feeds_url: 'https://api.github.com/feeds',
+  followers_url: 'https://api.github.com/user/followers',
+  following_url: 'https://api.github.com/user/following{/target}',
+  gists_url: 'https://api.github.com/gists{/gist_id}',
+  hub_url: 'https://api.github.com/hub',
+  issue_search_url: 'https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}',
+  issues_url: 'https://api.github.com/issues',
+  keys_url: 'https://api.github.com/user/keys',
+  label_search_url: 'https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page}',
+  notifications_url: 'https://api.github.com/notifications',
+  organization_url: 'https://api.github.com/orgs/{org}',
+  organization_repositories_url: 'https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}',
+  organization_teams_url: 'https://api.github.com/orgs/{org}/teams',
+  public_gists_url: 'https://api.github.com/gists/public',
+  rate_limit_url: 'https://api.github.com/rate_limit',
+  repository_url: 'https://api.github.com/repos/{owner}/{repo}',
+  repository_search_url: 'https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}',
+  current_user_repositories_url: 'https://api.github.com/user/repos{?type,page,per_page,sort}',
+  starred_url: 'https://api.github.com/user/starred{/owner}{/repo}',
+  starred_gists_url: 'https://api.github.com/gists/starred',
+  topic_search_url: 'https://api.github.com/search/topics?q={query}{&page,per_page}',
+  user_url: 'https://api.github.com/users/{user}',
+  user_organizations_url: 'https://api.github.com/user/orgs',
+  user_repositories_url: 'https://api.github.com/users/{user}/repos{?type,page,per_page,sort}',
+  user_search_url: 'https://api.github.com/search/users?q={query}{&page,per_page,sort,order}'
+}

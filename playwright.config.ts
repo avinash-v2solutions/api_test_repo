@@ -3,7 +3,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 
 const config : PlaywrightTestConfig = {
-  testMatch : ['tests/**/*.ts'] ,
+  testMatch : ['DataDriven.test.ts'] ,
 
   retries:2,
 

@@ -1,0 +1,87 @@
+true
+{
+  date: 'Wed, 12 Feb 2025 05:15:52 GMT',
+  'content-type': 'application/json; charset=utf-8',
+  'cache-control': 'public, max-age=60, s-maxage=60',
+  vary: 'Accept,Accept-Encoding, Accept, X-Requested-With',
+  etag: 'W/"4f825cc84e1c733059d46e76e6df9db557ae5254f9625dfe8e1b09499c449438"',
+  'x-github-media-type': 'github.v3; format=json',
+  'x-github-api-version-selected': '2022-11-28',
+  'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+  'access-control-allow-origin': '*',
+  'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+  'x-frame-options': 'deny',
+  'x-content-type-options': 'nosniff',
+  'x-xss-protection': '0',
+  'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+  'content-security-policy': "default-src 'none'",
+  'content-encoding': 'gzip',
+  server: 'github.com',
+  'accept-ranges': 'bytes',
+  'x-ratelimit-limit': '60',
+  'x-ratelimit-remaining': '58',
+  'x-ratelimit-reset': '1739340459',
+  'x-ratelimit-resource': 'core',
+  'x-ratelimit-used': '2',
+  'content-length': '510',
+  'x-github-request-id': '1DD5:3E0C62:1EE7A9:2C7F5F:67AC2E88'
+}
+[
+  { name: 'Date', value: 'Wed, 12 Feb 2025 05:15:52 GMT' },
+  { name: 'Content-Type', value: 'application/json; charset=utf-8' },
+  { name: 'Cache-Control', value: 'public, max-age=60, s-maxage=60' },
+  {
+    name: 'Vary',
+    value: 'Accept,Accept-Encoding, Accept, X-Requested-With'
+  },
+  {
+    name: 'ETag',
+    value: 'W/"4f825cc84e1c733059d46e76e6df9db557ae5254f9625dfe8e1b09499c449438"'
+  },
+  { name: 'X-GitHub-Media-Type', value: 'github.v3; format=json' },
+  { name: 'x-github-api-version-selected', value: '2022-11-28' },
+  {
+    name: 'Access-Control-Expose-Headers',
+    value: 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset'
+  },
+  { name: 'Access-Control-Allow-Origin', value: '*' },
+  {
+    name: 'Strict-Transport-Security',
+    value: 'max-age=31536000; includeSubdomains; preload'
+  },
+  { name: 'X-Frame-Options', value: 'deny' },
+  { name: 'X-Content-Type-Options', value: 'nosniff' },
+  { name: 'X-XSS-Protection', value: '0' },
+  {
+    name: 'Referrer-Policy',
+    value: 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  },
+  { name: 'Content-Security-Policy', value: "default-src 'none'" },
+  { name: 'Content-Encoding', value: 'gzip' },
+  { name: 'Server', value: 'github.com' },
+  { name: 'Accept-Ranges', value: 'bytes' },
+  { name: 'X-RateLimit-Limit', value: '60' },
+  { name: 'X-RateLimit-Remaining', value: '58' },
+  { name: 'X-RateLimit-Reset', value: '1739340459' },
+  { name: 'X-RateLimit-Resource', value: 'core' },
+  { name: 'X-RateLimit-Used', value: '2' },
+  { name: 'Content-Length', value: '510' },
+  {
+    name: 'X-GitHub-Request-Id',
+    value: '1DD5:3E0C62:1EE7A9:2C7F5F:67AC2E88'
+  }
+]
+OK
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 510,
+  [Symbol(trigger_async_id_symbol)]: 306,
+  [Symbol(kResourceStore)]: undefined
+}
+200
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 529,
+  [Symbol(trigger_async_id_symbol)]: 306,
+  [Symbol(kResourceStore)]: undefined
+}

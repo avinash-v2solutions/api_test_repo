@@ -1,0 +1,2 @@
+>> ${request.method()} ${request.url()}
+<< ${response.status()} ${response.url()}
