@@ -3,8 +3,16 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 
 const config : PlaywrightTestConfig = {
-  testDir: 'tests',  // Explicitly set the test directory
-  testMatch: ['**/*.test.ts'], 
+  testMatch: [
+    'tests/API_Chaining.test.ts',
+    'tests/API_Mocking.test.ts',
+    'tests/API_Reponse.test.ts',
+    'tests/brokenImages.test.ts',
+    'tests/brokenURL.test.ts',
+    'tests/DataDriven.test.ts',
+    'tests/dragAndDrop.test.ts',
+    'tests/hooks.test.ts'
+  ], 
 
   retries:2,  
 
