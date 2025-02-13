@@ -3,17 +3,17 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 
 const config : PlaywrightTestConfig = {
-  testMatch : ['DataDriven.test.ts'] ,
+  testDir: 'tests',  // Explicitly set the test directory
+  testMatch: ['**/*.test.ts'], 
 
-  retries:2,
-
-  
+  retries:2,  
 
   use : {
     //baseURL:"https://ecommerce-playground.lambdatest.io",
     headless : false,
     screenshot :'on',
-    video:"on"
+    video:"on",
+    trace :'on'
 
   },
 

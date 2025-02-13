@@ -16,7 +16,7 @@ test( 'Request / Response', async({request})=>{
    console.log(await response.json())
 })
 
-test.only('Monitoring HTTP Tariff', async({page})=>{
+test('Monitoring HTTP Tariff', async({page})=>{
 
     page.on('request', request=> console.log('>> ${request.method()} ${request.url()}'))
 
