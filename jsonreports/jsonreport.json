@@ -99,7 +99,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1682,
+                  "duration": 2968,
                   "errors": [],
                   "stdout": [
                     {
@@ -111,7 +111,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:19:46.542Z",
+                  "startTime": "2025-02-28T10:51:53.350Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -152,12 +152,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 9560,
+                  "duration": 6479,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:19:50.459Z",
+                  "startTime": "2025-02-28T10:51:50.006Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -208,7 +208,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 11578,
+                  "duration": 10724,
                   "errors": [],
                   "stdout": [
                     {
@@ -220,7 +220,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:19:51.900Z",
+                  "startTime": "2025-02-28T10:51:49.698Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -271,7 +271,7 @@
                 {
                   "workerIndex": 3,
                   "status": "timedOut",
-                  "duration": 33513,
+                  "duration": 34307,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -504,7 +504,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:19:48.122Z",
+                  "startTime": "2025-02-28T10:51:49.714Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -526,7 +526,7 @@
                 {
                   "workerIndex": 4,
                   "status": "timedOut",
-                  "duration": 32529,
+                  "duration": 32880,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -759,7 +759,7 @@
                   ],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2025-02-13T08:20:36.848Z",
+                  "startTime": "2025-02-28T10:52:34.480Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -781,7 +781,7 @@
                 {
                   "workerIndex": 5,
                   "status": "timedOut",
-                  "duration": 32403,
+                  "duration": 33259,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -1014,7 +1014,7 @@
                   ],
                   "stderr": [],
                   "retry": 2,
-                  "startTime": "2025-02-13T08:21:16.759Z",
+                  "startTime": "2025-02-28T10:53:13.926Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1065,12 +1065,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 12810,
+                  "duration": 8454,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:19:49.104Z",
+                  "startTime": "2025-02-28T10:51:56.898Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1113,12 +1113,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8126,
+                  "duration": 3593,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:06.602Z",
+                  "startTime": "2025-02-28T10:52:08.698Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1161,12 +1161,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4417,
+                  "duration": 2904,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:15.247Z",
+                  "startTime": "2025-02-28T10:52:12.542Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1209,12 +1209,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7991,
+                  "duration": 9187,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:19.926Z",
+                  "startTime": "2025-02-28T10:52:15.657Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1257,12 +1257,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2403,
+                  "duration": 2968,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:28.093Z",
+                  "startTime": "2025-02-28T10:52:25.492Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1305,12 +1305,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3017,
+                  "duration": 3199,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:30.760Z",
+                  "startTime": "2025-02-28T10:52:28.691Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1353,12 +1353,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2970,
+                  "duration": 3042,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:34.118Z",
+                  "startTime": "2025-02-28T10:52:32.095Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1401,12 +1401,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3038,
+                  "duration": 2976,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:37.239Z",
+                  "startTime": "2025-02-28T10:52:35.280Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1449,12 +1449,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2884,
+                  "duration": 3004,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:40.444Z",
+                  "startTime": "2025-02-28T10:52:38.527Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1499,12 +1499,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2101,
+                  "duration": 2763,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:43.724Z",
+                  "startTime": "2025-02-28T10:52:41.797Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1555,12 +1555,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 9667,
+                  "duration": 8270,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:05.117Z",
+                  "startTime": "2025-02-28T10:51:59.623Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1611,7 +1611,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 23,
+                  "duration": 8,
                   "errors": [],
                   "stdout": [
                     {
@@ -1629,7 +1629,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:08.526Z",
+                  "startTime": "2025-02-28T10:52:02.500Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -1662,7 +1662,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 10,
+                  "duration": 9,
                   "errors": [],
                   "stdout": [
                     {
@@ -1680,7 +1680,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-13T08:20:08.859Z",
+                  "startTime": "2025-02-28T10:52:02.689Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -1703,8 +1703,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-02-13T08:19:33.638Z",
-    "duration": 137345.163,
+    "startTime": "2025-02-28T10:51:45.616Z",
+    "duration": 124243.36799999999,
     "expected": 16,
     "skipped": 0,
     "unexpected": 1,

@@ -17,7 +17,7 @@ test("Find Broken Images", async({page})=>{
            const status= response.status()
         
 
-        // Check the status code indicates a broke image
+        // Check the status code indicates a broke images
         if(status>=400){
 
             console.log('Broken Image :'+ response.url() +'returned status code :'+ status)
